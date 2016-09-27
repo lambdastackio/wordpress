@@ -1,0 +1,123 @@
+/* testimonial */
+.testimonial-body {
+	position: relative;
+	margin: 0 auto;
+	outline: none;
+}
+.testimonial-body p {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 300;
+	color: #717171;
+}
+.testimonial-body.smaller-font p {
+	font-size: 14px;
+}
+
+.testimonial-author {
+	padding-top: 20px;
+}
+.testimonial-author img {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+}
+.testimonial-author .author-name {
+	font-weight: 700;
+}
+.testimonial-author em {
+	display: block;
+	color: #bbb;
+}
+
+.testimonial-fancy i {
+	position: absolute;
+	top: -12px;
+	font-size: 3em;
+	color: #406da4;
+	z-index: 1;
+}
+.testimonial-fancy .testimonial-body {
+	width: 80%;
+}
+.testimonial-fancy .testimonial-author {
+	padding-left: 60px;
+}
+@media screen and (max-width: 768px) {
+	.testimonial-fancy .testimonial-body {
+		width: 100%;
+	}
+}
+
+.testimonial .slick-prev, .testimonial .slick-next {
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	background-color: #eaeaea;
+	font-size: 0px;
+}
+
+.testimonial .slick-prev:before, .testimonial .slick-next:before {
+	font-family: "fontawesome";
+	font-size: 20px;
+	line-height: 17px;
+	color: white;
+	opacity: 0.75;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.testimonial .slick-next {
+	right: 0;
+}
+
+.testimonial .slick-next:before {
+content: '\f105';
+}
+
+.testimonial .slick-prev {
+	right: 35px;
+	z-index: 9;
+}
+
+.testimonial .slick-prev:before {
+	content: '\f104';
+}
+
+.testimonial .slick-prev:before, .testimonial .slick-next:before {
+	color: #4a4a4a;
+}
+.testimonial .slick-prev:hover, .testimonial .slick-next:hover {
+	background-color: #dddddd;
+}
+.testimonial .testimonial-body {
+	padding: 0 1px;
+}
+
+.testimonial-bubble {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	padding: 15px 15px 15px 54px;
+	margin: 10px;
+	background: #ebebeb;
+}
+.testimonial-bubble:after {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 50px;
+	border-width: 20px 0 0 20px;
+	border-style: solid;
+	border-color: #ebebeb transparent;
+}
+@media screen and (max-width: 480px) {
+	.testimonial-bubble {
+		padding: 15px 20px;
+	}
+}
+

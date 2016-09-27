@@ -1,0 +1,89 @@
+/* newsletter form */
+.newsletter-form {
+	margin-top: 20px;
+}
+.newsletter-form .input-group-lg > .form-control {
+	font-size: 14px;
+}
+.newsletter-form .input-group-lg > .form-control,
+.newsletter-form .input-group-lg > .input-group-btn > .btn {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: none;
+}
+.newsletter-form .input-group-lg > .form-control {
+	-moz-border-radius-topright: 0;
+	-webkit-border-top-right-radius: 0;
+	border-top-right-radius: 0;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
+	background: #fff;
+	outline: none;
+}
+.newsletter-form .input-group-lg > .form-control:focus {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.newsletter-form .input-group-lg > .input-group-btn > .btn {
+	-moz-border-radius-topleft: 0;
+	-webkit-border-top-left-radius: 0;
+	border-top-left-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-bottom-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background-color: #406da4;
+	font-size: 14px;
+	padding: 10px;
+	min-width: 93px;
+}
+.newsletter-form .input-group-lg > .input-group-btn > .btn:hover, .newsletter-form .input-group-lg > .input-group-btn > .btn:focus {
+	background-color: #396192;
+}
+.newsletter-form .input-group-lg > .input-group-btn > .btn i {
+	display: none;
+}
+.newsletter-form .input-group-lg > .input-group-btn > .btn.loading i {
+	display: inline;
+}
+.newsletter-form .input-group-lg > .input-group-btn > .btn.loading span {
+	display: none;
+}
+.newsletter-form .input-group-lg .input-group-btn:last-child > .btn {
+	margin-left: 0;
+	line-height: 2.2;
+}
+.newsletter-form .alert {
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	padding: 5px;
+	border: none;
+	font-size: 12px;
+	background: transparent;
+	color: #fff;
+	font-weight: 600;
+}
+.newsletter-form .alert.active {
+	filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+	opacity: 1;
+}
+.newsletter-form .alert.alert-danger {
+	color: #DF6967;
+}
+.newsletter-form .alert.alert-success {
+	color: #69C76A;
+}
+.newsletter-form .alert a {
+	color: #fff;
+	text-decoration: underline;
+}
+.newsletter-form .alert a:hover, .newsletter-form .alert a:focus {
+	text-decoration: none;
+}
+

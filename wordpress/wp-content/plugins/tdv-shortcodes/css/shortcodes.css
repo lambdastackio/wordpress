@@ -1,0 +1,186 @@
+/* boxed content */
+.boxed-content {
+	text-align: center;
+	margin-bottom: 35px;
+}
+.boxed-content > i {
+	font-size: 8em;
+	color: #406da4;
+}
+.boxed-content .boxed-content-title {
+	font-size: 22px;
+	font-weight: 700;
+}
+.boxed-content.left-aligned {
+	text-align: left;
+}
+.boxed-content.left-aligned .boxed-content-title {
+	margin-bottom: 10px;
+	line-height: 28px;
+	font-weight: normal;
+}
+.boxed-content.left-aligned i {
+	float: left;
+	margin-right: 10px;
+	font-size: 2em;
+}
+.boxed-content.left-boxed-icon i {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 10px;
+	width: 60px;
+	height: 60px;
+	background: #406da4;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.boxed-content.left-boxed-icon .boxed-content-title,
+.boxed-content.left-boxed-icon p {
+	padding-left: 80px;
+}
+
+/* google map */
+.google-map > div {
+	height: 350px;
+}
+
+/* social icon colors */
+.tdv-scode-social-link {
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.tdv-scode-social-link:hover {
+	color: #fff;
+	background: #4d4d4d;
+}
+
+.tdv-scode-social-link.fa-2x {
+	padding: 5px 15px;
+}
+
+.tdv-scode-social-link.fa-3x {
+	padding: 5px 21px;
+}
+
+.tdv-scode-social-link.fa-4x {
+	padding: 5px 26px;
+}
+
+.tdv-scode-social-link.fa-5x {
+	padding: 5px 30px;
+}
+
+.icon-bgcolor-twitter { background: #00c4fc; }
+.icon-bgcolor-facebook { background: #3350ae; }
+.icon-bgcolor-linkedin { background: #0084d7; }
+.icon-bgcolor-pinterest { background: #df2828; }
+.icon-bgcolor-delicious { background: #055ff5; }
+.icon-bgcolor-paypal { background: #23649a; }
+.icon-bgcolor-google-plus { background: #d83d2d; }
+.icon-bgcolor-stumbleupon { background: #c60303; }
+.icon-bgcolor-500px { background: #0089d4; }
+.icon-bgcolor-foursquare { background: #3ab6e8; }
+.icon-bgcolor-digg { background: #024dcb; }
+.icon-bgcolor-spotify { background: #aed40e; }
+.icon-bgcolor-reddit { background: #ff7800; }
+.icon-bgcolor-dribbble { background: #fe0085; }
+.icon-bgcolor-flickr { background: #e53a7c; }
+.icon-bgcolor-rss { background: #ef7528; }
+.icon-bgcolor-skype { background: #1dc6ff; }
+.icon-bgcolor-youtube { background: #e8211a; }
+.icon-bgcolor-vimeo { background: #0084ff; }
+.icon-bgcolor-amazon { background: #f59e1b; }
+.icon-bgcolor-github { background: #024dcb; }
+.icon-bgcolor-lastfm { background: #c60303; }
+.icon-bgcolor-soundcloud { background: #ff4701; }
+.icon-bgcolor-tumblr { background: #3d627d; }
+.icon-bgcolor-instagram { background: #1c527e; }
+
+
+/* main features */
+.main-features {
+	padding: 40px 0;
+	margin-bottom: 60px;
+	text-align: center;
+	background-color: #5782b7;
+	color: #94b6df;
+}
+
+.main-features i {
+	font-size: 5em;
+	margin-bottom: 28px;
+}
+
+.feature-heading {
+	margin: 0;
+	color: #94b6df;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.main-features div[class^="col-"]:after {
+	content: '';
+	border-right: 1px dashed #6894ca;
+	position: absolute;
+	height: 80px;
+	top: 50%;
+	right: 0;
+	margin-top: -40px;
+}
+
+.main-features div[class^="col-"]:last-child:after {
+	border-right: none;
+}
+
+@media screen and (max-width: 992px) {
+	.main-features div[class^="col-"] {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.main-features div[class^="col-"]:after {
+		display: none;
+	}
+}
+
+/* call to action */
+.call-to-action {
+	background-color: #f9f9f9;
+	padding: 25px 0;
+	margin-bottom: 0;
+}
+
+.call-to-action .container {
+	padding: 0 25px;
+}
+
+.call-to-action-heading {
+	font-weight: 300;
+}
+
+.call-to-action .lead {
+	margin-bottom: 0;
+}
+
+.call-to-action .pull-left, .call-to-action .pull-right {
+	line-height: 77px;
+}
+
+@media screen and (max-width: 768px) {
+	.call-to-action {
+		text-align: center;
+	}
+	.call-to-action .pull-left, .call-to-action .pull-right {
+		width: 100%;
+		float: none !important;
+	}
+	.call-to-action .btn {
+		margin-top: 10px;
+	}
+	.call-to-action span {
+		top: 7px;
+	}
+}

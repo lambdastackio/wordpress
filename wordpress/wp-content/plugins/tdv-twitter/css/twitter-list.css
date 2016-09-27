@@ -1,0 +1,47 @@
+/* twitter list style */
+#tdv-tweet ul > li {
+  margin-bottom: 35px;
+}
+
+#tdv-tweet ul > li:last-child {
+  margin-bottom: 0;
+}
+
+#tdv-tweet .Avatar {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 35px;
+  margin-right: 8px;
+  float: left;
+}
+
+#tdv-tweet .tweet-infos {
+  margin-bottom: 5px;
+}
+
+#tdv-tweet .tweet-infos a {
+  color: inherit;
+}
+
+#tdv-tweet .tweet-infos .full-name {
+  margin-right: 8px;
+}
+
+#tdv-tweet .tweet-content {
+  padding-left: 45px;
+  margin-bottom: 5px;
+}
+#tdv-tweet .tweet-content .u-hiddenVisually {
+  display: none;
+}
+
+#tdv-tweet .tweet-content a {
+  word-break: break-all;
+}
+
+#tdv-tweet .tweet-time {
+  font-size: 12px;
+  padding-left: 45px;
+  color: #c9ced0;
+}

@@ -1,0 +1,70 @@
+/* team styles */
+
+.team-member {
+	margin-bottom: 60px;
+}
+
+.team-member.media > .pull-left {
+	margin-right: 30px;
+	padding-right: 0;
+}
+
+.team-member .team-name {
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	*zoom: 1;
+	*display: inline;
+	padding: 0 5px;
+	line-height: 1.6;
+	color: #fff;
+	background-color: #406da4;
+}
+
+.team-member strong {
+	display: block;
+	font-size: 0.9em;
+}
+
+.team-member hr {
+	width: 50px;
+	border-top: 1px solid #ccc;
+	margin-top: 10px;
+	margin-left: 0;
+}
+
+.team-member .social-icon > li {
+	padding-right: 12px;
+}
+
+.team-member .social-icon > li > a {
+	color: #989898;
+	font-size: 18px;
+}
+
+.team-member .social-icon > li > a:hover, .team-member .social-icon > li > a:focus {
+	color: #797979;
+}
+
+@media screen and (max-width: 480px) {
+	.team-member {
+		text-align: center;
+	}
+	.team-member.media > .pull-left {
+		display: inline;
+		float: none !important;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+	.team-member hr {
+		margin: 20px auto;
+		float: none !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.team {
+		padding-bottom: 0;
+	}
+}
+
